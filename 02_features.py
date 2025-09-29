@@ -20,7 +20,7 @@ all_instances.sort()
 
 problem_name = all_instances[args.problem].split(sep=".")[0]
 
-dir_name = "./scratch/goodfiles/" + problem_name + "/results/"
+dir_name = "./goodfiles/" + problem_name + "/results/"
 
 files = [file for file in os.listdir(dir_name) if "problem" not in file]
 files.sort()
@@ -69,7 +69,7 @@ fig.savefig(problem_name + ".png")
 
 directory = (
     # "/blue/akazachkov/o.guaje/" + "gooddata/" + problem_name + "/"
-    "./scratch/goodfiles/"
+    "./goodfiles/"
     + problem_name
     + "/"
 )

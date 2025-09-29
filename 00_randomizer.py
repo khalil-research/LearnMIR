@@ -27,7 +27,7 @@ files.sort()
 problem = files[args.problem].split(sep=".")[0]
 
 max_instances = args.instances
-problem_path = "./scratch/goodfiles/" + problem + "/"
+problem_path = "./goodfiles/" + problem + "/"
 instance = "./goodinstances/" + problem
 
 # Read the instance

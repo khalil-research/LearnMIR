@@ -1,0 +1,22 @@
+Classifier: Gradient Boosting Classifier
+Class Percentage Distribution:
+Class 0: 85.43%
+Class 1: 14.57%
+Pre-threshold Metrics:
+Accuracy: 0.9403427347375937
+Precision: 0.7927157174285016
+Recall: 0.7975897688145598
+F1 Score: 0.7951452739977934
+Confusion Matrix:
+23096	848
+823	3243
+Post-threshold Metrics:
+Accuracy: 0.9397001071046055
+Precision: 0.7764596417771574
+Recall: 0.8209542547958681
+F1 Score: 0.7980872683801553
+Confusion Matrix:
+22983	961
+728	3338
+Best Threshold: 0.44457069601430843
+Best F1 Score: 0.7982309347358354

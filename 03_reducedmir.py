@@ -30,7 +30,7 @@ all_instances.sort()
 problem_name = all_instances[args.problem].split(sep=".")[0]
 directory = (
     # "/blue/akazachkov/o.guaje/" + "gooddata/" + problem_name + "/"
-    "./scratch/goodfiles/"
+    "./goodfiles/"
     + problem_name
     + "/"
 )

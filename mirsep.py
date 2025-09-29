@@ -71,10 +71,13 @@ class Mirsep:
         )
 
         if predictions is not None:
+            fixed_count = 0
             for idx, prediction in enumerate(predictions):
                 if prediction <= 1e-6:
+                    fixed_count += 1
                     self.lambd[idx].LB = 0
                     self.lambd[idx].UB = 0
+            print("Fixed ", fixed_count, "lambdas to 0")
 
         self.non_zero_v = [
             idx for idx in range(len(self.v_star)) if self.v_star[idx] > 0
