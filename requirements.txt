@@ -1,0 +1,6 @@
+gurobipy==12.0.3
+joblib==1.2.0+computecanada
+numpy==1.24.4+computecanada
+pandas==1.4.1+computecanada
+scikit_learn==1.1.1+computecanada
+seaborn==0.13.2
